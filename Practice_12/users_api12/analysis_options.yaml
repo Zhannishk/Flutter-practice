@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+analyzer:
+  errors:
+    unawaited_futures: warning
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+linter:
+  rules:
+    unawaited_futures: true
